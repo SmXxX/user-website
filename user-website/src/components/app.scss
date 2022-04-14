@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: black;
+}
+.box {
+  flex: 1;
+  background-color: grey;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px white;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+}
+.api-heading {
+  color: white;
+  font-size: 45px;
+}
+.productImage {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+.productImage:hover {
+  cursor: pointer;
+}
